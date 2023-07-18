@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food Ordering System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+<!--Start of Tawk.to Script
+<script>
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/63f49f374247f20fefe1c670/1gpporu7b';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  End of Tawk.to Script-->
+
+
+  <body>
+    <header>
+      <!--<h1>Food Ordering System</h1>-->
+      <a href="index.html">
+        <img src="logo.png" alt = "Home" width ="170" height="60">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#">Home<img src="icons8-home-48.png" alt="Home"></a></li>
+          <li><a href="#">Restaurants<img src="icons8-dining-50.png" alt="Restaurants"></a></li>
+          <li><a href="#">Cart<img src="icons8-food-cart-64.png" alt="Cart"></a></li>
+          <li><a href="sign in.html">Sign In<img src="icons8-change-user-50.png" alt="Sign In"></a></li>
+        </ul>
+      </nav>
+      
+    </header>
+    <main>
+
+
+      <video id="video-bg" autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+
+
+
+      <section class="hero">
+        <h2>Order Food Online from Your Favorite Restaurants</h2>
+        <form>
+          <input type="text" placeholder="Restaurants or Cuisines">
+          <input type="submit" value="Search">
+        </form>
+      </section>
+
+      
+
+
+      <section class="featured-restaurants">
+        <h3> Featured Restaurants</h3>
+        <ul>
+          <li>
+            <a href="">
+              <img src="Pinkberry-store.jpg" alt="Restaurant 1">
+              <h4>PinkyBerry</h4>
+              <p>Italian cuisine</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="kfc.jpeg" alt="Restaurant 2" a href = >
+              <h4>KFC</h4>
+              <p>Mexican cuisine</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="eddys.jpg" alt="Restaurant 3">
+              <h4>Eddys Pizza</h4>
+              <p>Chinese cuisine</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="Papaye_Fast_Foods_Tesano.jpg" alt="Restaurant 3">
+              <h4>Papaye</h4>
+              <p>Chinese cuisine</p>
+            </a>
+          </li>
+        </ul>
+       
+      </section>
+      <section class="how-it-works">
+        <h3>How It Works</h3>
+        <ol>
+          <li>Enter your location to find restaurants near you.</li>
+          <li>Browse the menus and select the dishes you want to order.</li>
+          <li>Pay securely using your preferred payment method.</li>
+          <li>Track your order in real-time and receive updates on its status.</li>
+          <li>Enjoy your delicious meal!</li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ex in leo efficitur, sit amet varius lectus iaculis.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: example@example.com</p>
+          <p>Phone: 123-456-7890</p>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Newsletter</h3>
+          <p>Subscribe to our newsletter to receive the latest updates.</p>
+          <form>
+            <input type="email" placeholder="Enter your email address">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+
+
+      <p>Copyright &copy; 2023 Food Ordering System</p>
+    </footer>
+
+
+    <script>
+
+const featuredRestaurantsSection = document.querySelector('.featured-restaurants');
+const scrollLimit = 1400; // Set the scroll limit here (in pixels)
+
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > scrollLimit) {
+    featuredRestaurantsSection.style.overflow = 'hidden';
+  } else {
+    featuredRestaurantsSection.style.overflow = 'auto';
+  }
+});
+
+
+    </script>
+
+
+  </body>
+</html>
